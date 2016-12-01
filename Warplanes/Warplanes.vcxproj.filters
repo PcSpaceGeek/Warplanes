@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Resource Include="..\Assets\Warplanes.res" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Assets\D3DGraphics.cpp">
+      <Filter>Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Assets\Game.cpp">
+      <Filter>Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Assets\Keyboard.cpp">
+      <Filter>Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Assets\Timer.cpp">
+      <Filter>Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Assets\Windows.cpp">
+      <Filter>Codes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Assets\D3DGraphics.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Assets\Game.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Assets\Keyboard.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Assets\Resource.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Assets\Timer.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{f14b7c5d-85b4-4636-b391-30395361def4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Codes">
+      <UniqueIdentifier>{9a18bbb2-2ecf-452e-bb44-dd2b2505fea9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
