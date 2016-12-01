@@ -14,10 +14,6 @@ It is like the classic warships game, just with warplanes.
 - Basic battle system: the player is able to attack the AI, but AI counterattack is not yet implemented.
 - Basic winning condition: if the head of all 5 airplanes are shot the player wins, resulting in the disappearance of the targeting cursor.
 
-
-**Known bugs:**
-- If an airplane is removed during the placement phase, it cannot be placed again. This result in one less airplane for the player.
-
 --------------
 
 ## Instructions
